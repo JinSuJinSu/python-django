@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>matplot</title>
+</head>
+<body>
+{% load static %}
+{% block content %}
+<script>
+let img = document.createElement('img');
+function year_select(obj){
+        // 2017년
+		let values = document.querySelector('#year_month');
+        img.remove();
+        img=document.createElement('img')
+		if(obj.value==="2017년"){
+		document.body.appendChild(img);
+		img.src = "{% static '2017년 월별 이용건수.png' %}"
+		img.height="300";
+		img.width="400";
+
+    }
+
+        else if(obj.value==="2018년"){
+        img.remove();
+		img = document.createElement('img');
+		document.body.appendChild(img);
+		img.src = "{% static '2018년 월별 이용건수.png' %}"
+		img.height="300"
+		img.width="400"
+    }
+
+    else if(obj.value==="2019년"){
+        img.remove();
+		img = document.createElement('img');
+		document.body.appendChild(img);
+		img.src = "{% static '2019년 월별 이용건수.png' %}"
+		img.height="300"
+		img.width="400"
+    }
+
+    else if(obj.value==="2020년"){
+        img.remove();
+		img = document.createElement('img');
+		document.body.appendChild(img);
+		img.src = "{% static '2020년 월별 이용건수.png' %}"
+		img.height="300"
+		img.width="400"
+    }
+}
+</script>
+<h1>연도별 월별 이용자수 합계</h1>
+<form>
+    <select id="year_month" onchange="year_select(this);">
+        <option>연도</option>
+        <option value="2017년">2017년</option>
+        <option value="2018년">2018년</option>
+        <option value="2019년">2019년</option>
+        <option value="2020년">2020년</option>
+    </select>
+</form>
+
+
+<div class="container">
+<!--  <img src="data:img/png;base64,{{data}}" alt="" height="250" width="250">-->
+    <div>
+  <img src="{% static 'graph1.png' %}" alt="pleases" height="300" width="400">
+    </div>
+</div>
+
+{% endblock content %}
+
+</body>
+</html>

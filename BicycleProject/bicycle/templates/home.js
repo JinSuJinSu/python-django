@@ -1,0 +1,4 @@
+function man() {
+    alert('man!!');
+
+}
