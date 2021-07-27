@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+{% load static %}
+<html lang="en" dir="ltr">
+	<head>
+		<title>Editorial by HTML5 UP</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'css/main.css' %}">
+		<link rel="stylesheet" href="{% static 'css/font_data.css' %}">
+		<link rel="stylesheet" href="{% static 'css/text_decoration.css' %}">
+		<link rel="stylesheet" href="{% static 'css/fontawesome-all.min.css' %}">
+		<style>
+			body{
+				font-size:20px;
+				font-weight:bold;
+			}
+
+
+
+		</style>
+
+				<!-- Scripts -->
+		<script src="/static/js/jquery.min.js" type="text/javascript"></script>
+		<script src="/static/js/browser.min.js" type="text/javascript"></script>
+		<script src="/static/js/breakpoints.min.js" type="text/javascript"></script>
+		<script src="/static/js/util.js" type="text/javascript"></script>
+		<script src="/static/js/main.js" type="text/javascript"></script>
+		<script src="/static/js/button.js" type="text/javascript"></script>
+		<script src="/static/js/cursor.js" type="text/javascript"></script>
+	</head>
+	<body class="is-preload">
+	{% block content %}
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a class="logo" style="{color:black;} :hover{color:green}">따릉이 데이터 조사현황</a>
+								</header>
+								<br>
+								<br>
+								<img src="{% static '/자전거/따릉이.jpg' %}">
+								<br>
+								<p>해마다 자전거 대여 시스템 따릉이를 이용하는 사람들은 늘어나고 있습니다.<br>
+									코로나 후에는 이용자 수가 급격하게 늘어나는 경향을 보였는데<br>
+									영향을 주는 요인들을
+									<span style="font-weight:bold; font-size:30px;">분석</span>해보기로 합시다.</p>
+								<img src="{% static '/자전거/Picture1.png' %}">
+								<br>
+								<img src="{% static '/자전거/따릉이 이미지.png' %}" width="800" height="600">
+								<br>
+								<img src="{% static '/자전거/따릉이 스펙.png' %}" width="800" height="400">
+								<br>
+
+								<img src="{% static '/자전거/대여소지도.jpg' %}" width="800" height="600">
+							    <br>
+								<br>
+								2021년 기준으로 따릉이가 대략 37,500대, 대여소 2,467곳이 있습니다.
+
+								<br>
+								<br>
+								<br>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2 style="font-size:35px;"><a href="{% url 'index' %}">따릉이 데이터 연구소</a></h2>
+									</header>
+									<ul>
+										<li style="font-size: 20px;"><a href="{% url 'index' %}">홈페이지 소개</a></li>
+										<li style="font-size: 20px;"><a href="{% url 'data_intro' %}">데이터 소개</a></li>
+										<li style="font-size: 20px;"><a href="{% url 'data_process' %}">데이터 처리 과정</a></li>
+												<li style="font-size: 20px;">
+												<details open>
+													<summary><strong>데이터 시각화 목록</strong></summary>
+													<ul>
+													   <li style="font-size: 20px;"><a href="{% url 'basic_visual' %}">연도별 기본 데이터</a></li>
+													   <li style="font-size: 20px;"><a href="{% url 'visual_sum' %}">연도별 이용건수 합계 데이터</a></li>
+														<li style="font-size: 20px;"><a href="{% url 'visual3' %}">연도별 평균 데이터</a></li>
+														<li style="font-size: 20px;"><a href="{% url 'visual4' %}">연도별 비율 데이터</a></li>
+
+													</ul>
+												</details>
+												</li>
+										<li style="font-size: 20px;"><a href="{% url 'data_anal' %}">데이터 분석</a></li>
+										<li style="font-size: 20px;"><a href="{% url 'data_result' %}">분석 결론</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</div>
+			</div>
+
+{% endblock content %}
+	</body>
+</html>

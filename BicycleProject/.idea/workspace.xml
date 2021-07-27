@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="db62bf76-50e5-49aa-917e-1893a8e2158a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bicycle/bicycle_anal/static/css/font_data.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bicycle/bicycle_anal/static/css/text_decoration.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bicycle/bicycle_anal/static/js/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bicycle/bicycle_anal/static/js/img_avg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bicycle/templates/bicycle_html/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bicycle/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/bicycle/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bicycle/templates/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/bicycle/templates/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bicycle/bicycle/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bicycle/bicycle/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bicycle/bicycle_anal/csv_files/연도별 이용건수.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bicycle/bicycle_anal/static/2017년 월별 이용건수.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bicycle/bicycle_anal/static/2018년 월별 이용건수.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bicycle/bicycle_anal/static/2019년 월별 이용건수.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bicycle/bicycle_anal/static/2020년 월별 이용건수.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bicycle/bicycle_anal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bicycle/bicycle_anal/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bicycle/bicycle_anal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bicycle/bicycle_anal/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bicycle/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bicycle/templates/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardProject2/boardRoot/templates/noticeboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardProject2/boardRoot/templates/noticeboard/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +39,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1vVoz66YsCQ21ZoJyyScnicMxnE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -36,12 +61,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\pycharm_project\BicycleProject\bicycle\templates" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\pycharm_project\BicycleProject\bicycle\bicycle_anal\static\js" />
+      <recent name="D:\pycharm_project\BicycleProject\bicycle\templates\bicycle_html" />
+      <recent name="D:\pycharm_project\BicycleProject\bicycle\bicycle_anal\static\css" />
+      <recent name="D:\pycharm_project\BicycleProject\bicycle\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pycharm_project\BicycleProject\bicycle\templates\bicycle_html" />
+      <recent name="D:\pycharm_project\BicycleProject\bicycle\bicycle_anal\static\js" />
+      <recent name="D:\pycharm_project\BicycleProject\bicycle\bicycle_anal\static" />
+      <recent name="D:\pycharm_project\BicycleProject\bicycle\templates" />
     </key>
   </component>
   <component name="RunManager" selected="Python.matplot">
@@ -109,11 +143,19 @@
       <option name="project" value="LOCAL" />
       <updated>1626682643330</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add project graph">
+      <created>1626697432725</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626697432725</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add project file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add project file" />
+    <MESSAGE value="add project graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="add project graph" />
   </component>
 </project>
